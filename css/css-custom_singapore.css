@@ -1,0 +1,40 @@
+footer .l-footerNav {
+  overflow: hidden;
+}
+
+footer .l-footerNav ul {
+  float: left;
+}
+
+@media only screen and (max-width: 767px) {
+  footer .l-footerNav ul {
+    float: none;
+  }
+}
+
+footer .l-footerNav ul li {
+  display: block !important;
+  line-height: 2;
+}
+
+@media only screen and (max-width: 767px) {
+  footer .l-footerNav ul li {
+    width: 100%;
+  }
+}
+
+footer .l-footerNav .l-cta {
+  float: right;
+  width: 370px;
+  margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  footer .l-footerNav .l-cta {
+    display: none;
+  }
+}
+
+footer .l-footerInfo .l-inner-footerInfo > ._logo {
+  float: none;
+}
